@@ -59,5 +59,7 @@ def over?(board)
   end
 end
 
-# won
-defwon?
+# winner
+def winner?(board)
+  if won?(board)
+    return board

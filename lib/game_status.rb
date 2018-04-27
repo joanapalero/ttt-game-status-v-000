@@ -58,3 +58,6 @@ def over?(board)
     return false
   end
 end
+
+# won
+defwon?

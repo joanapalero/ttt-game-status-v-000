@@ -42,7 +42,7 @@ end
 
 # full
 def full?(board)
-  return board.all?{|combination| combination == "X" || combination == "O"}
+  board.all?{|combination| combination == "X" || combination == "O"}
 end
 
 # draw

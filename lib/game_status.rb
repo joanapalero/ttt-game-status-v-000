@@ -37,8 +37,8 @@ WIN_COMBINATIONS.each do |win_combination|
       false
     end
   end
-  # false
-# end
+  false
+end
 
 # full
 def full?(board)

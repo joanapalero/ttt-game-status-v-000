@@ -42,7 +42,7 @@ end
 
 # full
 def full?(board)
-  return board.all? {|space| space == "X" || space == "O"}
+  return board.all?{|space| space == "X" || space == "O"}
 end
 
 # draw

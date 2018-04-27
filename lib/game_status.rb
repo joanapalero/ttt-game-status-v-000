@@ -50,3 +50,6 @@ def draw?(board)
  return !won?(board) && full?(board)
 end
 
+# over
+def over?(board)
+
